@@ -89,13 +89,6 @@ button{
     height:200px;
     border-radius:50%;
 }
-#hero a {
-    background: white;
-    border: 5px solid #3F8DA7;
-    color: #3F8DA7;
-    padding: 5px 10px;
-    text-decoration: none;
-  }
 a{
     width:200px;
     height:60px;
@@ -110,17 +103,15 @@ footer {
     color: white;
     margin-top: 40px;
     padding: 20px 0;
-    text-align: center;
 }
 footer img{
     width:20px;
     height:20px;
 }
 footer ul {
-    margin: 40px 0;
+  margin: 40px 0;
 }
 footer li {
-    display: inline-block;
-    margin: 0 25px;
-
+  display: inline-block;
+  margin: 0 25px;
 }
