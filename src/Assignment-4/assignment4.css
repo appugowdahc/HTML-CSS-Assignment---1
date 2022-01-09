@@ -103,6 +103,9 @@ footer {
     color: white;
     margin-top: 40px;
     padding: 20px 0;
+    display: inline-block;
+    text-align: center;
+    width:100%;
 }
 footer img{
     width:20px;
@@ -110,6 +113,7 @@ footer img{
 }
 footer ul {
   margin: 40px 0;
+  display: inline-block;
 }
 footer li {
   display: inline-block;
