@@ -1,7 +1,69 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container {
 width: 100%;
 height: 100%;
+background: darkgray;
+border: 1px solid black;
+margin:5px;
+
+}
+.card{
+    width: 100%;
+    height:600px;
+    background: white;
+    border: 1px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    margin-bottom:60px;
+
+}
+#left-side{
+    height:600px;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    background-color: rgba(0,255,0,.4);
+    
+    
+}
+#right-side{
+    height:500px;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+img{
+    
+    width:500px;
+    height:500px;
+    height:auto;
+
+    margin:20px 20px;
+}
+button{
+    background-color: rgba(0,255,0,.4);
+    width:150px;
+    height:70px;
+    border-radius: 40%;
+    padding: 10px;
+    color: white;
+
+}
+p{
+    padding: 40px;
+    display: block;
+    align-items: center;
+}
+h1{
+    padding: 40px;
+    display: block;
 }
