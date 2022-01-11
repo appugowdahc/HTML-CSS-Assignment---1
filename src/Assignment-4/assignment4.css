@@ -3,5 +3,119 @@
 
 .container, .content {
 width: 100%;
-height: 100%;
+height: 1200px;
+border:2px solid black;
+}
+ul li{
+    list-style: none;
+}
+.page-head{
+    width:100%;
+    height:100px;
+    background-color: aqua;
+    border:1px solid black;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: right;
+    display: inline-block ;
+    padding: 25px;
+    color:white;
+  
+}
+.imgg{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+
+    float:left;
+    padding:20px;
+    margin-top: 10px;
+    margin-left: 60px;
+    
+    
+}
+.head-rigth{
+    width:50%;
+
+
+}
+.head-left{
+    width:50%;
+    
+}
+.pagebar{
+    background-image:url('https://images.unsplash.com/photo-1641203212602-ce55421d5d10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    width:100%;
+    height:500px;
+    padding-top: 10px;
+    text-align: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+section h1{
+    font-size: 40px;
+}
+.dog{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    padding:20px;
+} 
+.btn{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+button{
+    height:40px;width:100px;
+    background-color: burlywood;
+}
+.three-col{
+    width:30%;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin:10 10px;
+}
+.three-col img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+a{
+    width:200px;
+    height:60px;
+    border:1px solid black;
+    padding:10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: bisque;
+}
+footer {
+    background: #3F8DA7;
+    color: white;
+    margin-top: 40px;
+    padding: 20px 0;
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+footer img{
+    width:20px;
+    height:20px;
+}
+footer ul {
+  margin: 40px 0;
+  display: inline-block;
+}
+footer li {
+  display: inline-block;
+  margin: 0 25px;
 }
